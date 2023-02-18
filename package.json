@@ -1,5 +1,5 @@
 {
-  "name": "@h2mlagency/bettertimeout",
+  "name": "@h2ml/bettertimeout",
   "version": "1.0.0",
   "description": "A Promise based library for better timeouts",
   "main": "main.js",
@@ -18,11 +18,7 @@
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
-    "@babel/preset-env": "^7.20.2",
-    "babel-loader": "^9.1.2",
-    "babel-preset-minify": "^0.5.2",
-    "jsdoc": "^4.0.1",
-    "jsdoc-to-markdown": "^8.0.0"
+    "@babel/preset-env": "^7.20.2"
   },
   "repository": {
     "type": "git",
