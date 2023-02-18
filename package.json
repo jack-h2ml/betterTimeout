@@ -1,6 +1,6 @@
 {
   "name": "@h2ml/bettertimeout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Promise based library for better timeouts",
   "main": "main.js",
   "scripts": {
@@ -15,11 +15,6 @@
     "promise",
     "PromiseTimeout"
   ],
-  "devDependencies": {
-    "@babel/cli": "^7.20.7",
-    "@babel/core": "^7.20.12",
-    "@babel/preset-env": "^7.20.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jack-h2ml/betterTimeout.git"
@@ -27,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/jack-h2ml/betterTimeout/issues"
   },
-  "homepage": "https://github.com/jack-h2ml/betterTimeout#readme"
+  "homepage": "https://github.com/jack-h2ml/betterTimeout#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "babel-preset-minify": "^0.5.2"
+  }
 }
