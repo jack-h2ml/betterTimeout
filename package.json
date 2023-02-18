@@ -1,6 +1,6 @@
 {
   "name": "@h2ml/bettertimeout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Promise based library for better timeouts",
   "main": "main.js",
   "scripts": {
@@ -29,5 +29,8 @@
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.2",
     "babel-preset-minify": "^0.5.2"
+  },
+  "dependencies": {
+    "core-js": "^3.28.0"
   }
 }
