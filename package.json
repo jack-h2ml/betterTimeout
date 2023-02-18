@@ -1,30 +1,37 @@
 {
-	"name": "@h2mlagency/bettertimeout",
-	"version": "1.0.0",
-	"description": "A Promise based library for better timeouts",
-	"main": "main.js",
-	"scripts": {
-		"build": "babel ./src/main.js --out-file ./main.js",
-		"start": "babel ./src/main.js --watch --out-file ./main.js",
-		"serveDev": "babel ./src/main.js --watch --out-file ./main.js & webpack serve --config ./webpack.config.js --mode development"
-	},
-	"author": "Jack Notman",
-	"license": "MIT",
-	"keywords": [
-		"timeout",
-		"setTimeout",
-		"promise",
-		"PromiseTimeout"
-	],
-	"devDependencies": {
-		"@babel/cli": "^7.20.7",
-		"@babel/core": "^7.20.12",
-		"@babel/preset-env": "^7.20.2",
-		"babel-loader": "^9.1.2",
-		"jsdoc": "^4.0.1",
-		"jsdoc-to-markdown": "^8.0.0"
-	},
-	"dependencies": {
-		"core-js": "^3.28.0"
-	}
+  "name": "@h2mlagency/bettertimeout",
+  "version": "1.0.0",
+  "description": "A Promise based library for better timeouts",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel ./src/main.js --out-file ./main.js",
+    "start": "babel ./src/main.js --watch --out-file ./main.js"
+  },
+  "author": "Jack Notman",
+  "license": "MIT",
+  "keywords": [
+    "timeout",
+    "setTimeout",
+    "promise",
+    "PromiseTimeout"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "jsdoc": "^4.0.1",
+    "jsdoc-to-markdown": "^8.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.28.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack-h2ml/betterTimeout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jack-h2ml/betterTimeout/issues"
+  },
+  "homepage": "https://github.com/jack-h2ml/betterTimeout#readme"
 }
