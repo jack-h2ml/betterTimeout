@@ -32,5 +32,5 @@ webpack.config.js
 .gitattributes
 
 # other
-.tgz
-.zip
+*.tgz
+*.zip
