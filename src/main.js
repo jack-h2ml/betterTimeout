@@ -2,7 +2,7 @@
  * @fileOverview What is this file for?
  * @author Jack Notman
  * @version 1.0.0
- * @module @h2mlagency/bettertimeout
+ * @module @h2ml/bettertimeout
  */
 
 "use strict";
@@ -203,7 +203,7 @@ class Timer {
 }
 
 /** 
- * @exports @h2mlagency/bettertimeout
+ * @exports @h2ml/bettertimeout
  */
 
 export {

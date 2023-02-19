@@ -1,6 +1,6 @@
 {
   "name": "@h2ml/bettertimeout",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Promise based library for better timeouts",
   "main": "main.js",
   "scripts": {
